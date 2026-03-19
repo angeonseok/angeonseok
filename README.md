@@ -19,5 +19,5 @@
 ## 🐍 Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dudwltjs/dudwltjs/output/github-contribution-grid-snake.svg" width="90%" />
+  <img src="https://raw.githubusercontent.com/angeonseok/angeonseok/output/github-contribution-grid-snake.svg" width="90%" />
 </div>
