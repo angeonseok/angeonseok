@@ -11,7 +11,7 @@
 ## 🌱 Activity Garden
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dudwltjs&theme=tokyo-night" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=angeonseok&theme=tokyo-night" width="90%" />
 </div>
 
 <br>
