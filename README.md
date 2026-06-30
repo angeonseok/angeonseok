@@ -5,7 +5,7 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angeonseok&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=angeonseok&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
 </div>
 
 <br>
