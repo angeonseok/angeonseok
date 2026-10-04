@@ -5,7 +5,7 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=angeonseok&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=angeonseok&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
 </div>
 
 <br>
@@ -37,7 +37,7 @@
 ## 🧠 Algorithm
 
 <div align="center">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dudwltjs" width="40%" />
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=dudwltjs" width="40%" />
 </div>
 
 <br>
