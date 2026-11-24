@@ -1,4 +1,4 @@
-"""Render a "Most Used Languages" SVG card that includes private repositories.
+"""Render a "Most Used Languages" SVG card from public repositories only.
 
 Usage: GH_TOKEN=<token> python3 languages_card.py <out.svg>
 The token only needs read access to the repositories (fine-grained: Metadata read-only).
@@ -35,7 +35,7 @@ def get(url, token):
 def language_bytes(token):
     totals, counted, page = {}, 0, 1
     while True:
-        repos = get(f"{API}/user/repos?affiliation=owner&per_page=100&page={page}", token)
+        repos = get(f"{API}/user/repos?affiliation=owner&visibility=public&per_page=100&page={page}", token)
         for repo in repos:
             if repo["fork"]:
                 continue
