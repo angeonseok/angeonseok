@@ -5,7 +5,7 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/angeonseok/angeonseok/output/metrics.languages.svg" alt="Most Used Languages" />
+  <img src="https://raw.githubusercontent.com/angeonseok/angeonseok/output/languages.svg" alt="Most Used Languages" />
 </div>
 
 <br>
