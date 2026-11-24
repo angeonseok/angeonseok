@@ -20,6 +20,23 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
+      # 아래 push 단계가 output 브랜치를 dist 내용으로 덮어쓰므로 언어 카드도 이 job에서 함께 만든다.
+      - name: Generate languages card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: angeonseok
+          filename: metrics.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          config_timezone: Asia/Seoul
+          output_action: none
+
+      - name: Copy languages card
+        run: sudo cp /metrics_renders/metrics.languages.svg dist/
+
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
